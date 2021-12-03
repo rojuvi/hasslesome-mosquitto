@@ -1,0 +1,22 @@
+
+{
+    "name": "HassMqtt",
+    "keywords": "ethernet, mqtt, m2m, iot, hass, home assistant, discovery",
+    "description": "A client library based on PubSubClient mqtt client to manage Home Assistant MQTT Discovery.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rojuvi/hasslesome-mosquitto"
+    },
+    "version": "0.1",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ],
+    "dependencies": {
+        "knolleary/pubsubclient": "^2.8"
+    }
+}
